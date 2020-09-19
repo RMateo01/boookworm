@@ -1,0 +1,52 @@
+/*------------------------------------------------------------------
+[2. Mixins]
+*/
+/*-------------------------------
+// Transitions //
+*/
+@mixin transition15s {
+    -webkit-transition: all 0.15s ease-in-out;
+    -moz-transition: all 0.15s ease-in-out;
+    -ms-transition: all 0.15s ease-in-out;
+    -o-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+}
+@mixin transition20s {
+    -webkit-transition: all 0.20s ease-in-out;
+    -moz-transition: all 0.20s ease-in-out;
+    -ms-transition: all 0.20s ease-in-out;
+    -o-transition: all 0.20s ease-in-out;
+    transition: all 0.20s ease-in-out;
+}
+@mixin transition25s {
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+}
+@mixin transition30s {
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    transition: all 0.30s ease-in-out;
+}
+
+/*-------------------------------
+// Images //
+*/
+@mixin bgImageFullSize {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+@mixin imageFullSize {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/*-------------------------------
+// Animations //
+*/
